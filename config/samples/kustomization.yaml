@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- animals_v1_goat.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

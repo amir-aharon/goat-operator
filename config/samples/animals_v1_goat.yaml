@@ -1,0 +1,9 @@
+apiVersion: animals.baaaa.io/v1
+kind: Goat
+metadata:
+  labels:
+    app.kubernetes.io/name: goat-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: goat-sample
+spec:
+  podName: sample
